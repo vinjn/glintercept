@@ -1,0 +1,1933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{68a208e5-81a7-426b-bd65-0c2478bacdcf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{4845e664-19b7-4239-a23d-6551a17b8d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\Stubs">
+      <UniqueIdentifier>{b9effb78-ac38-42c4-a778-1042a007b631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunctionTable">
+      <UniqueIdentifier>{292d0f88-46d6-42f3-a384-5a3eef95f136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunctionTable\ParameterData">
+      <UniqueIdentifier>{0f070ee9-e705-4529-8349-9137c475997a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunctionTable\EnumData">
+      <UniqueIdentifier>{c35a90af-5ae1-4a2c-8da9-c70f098228fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BuiltInFunction">
+      <UniqueIdentifier>{acfa9be6-3e48-43a5-92ea-4f803053aa89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExtensionFunction">
+      <UniqueIdentifier>{1ae68fe7-95da-4c02-a4b9-ac43f670881b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptLog">
+      <UniqueIdentifier>{3b6a7b39-81ed-4aac-ba8b-b660034fc3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptData">
+      <UniqueIdentifier>{4ff2c41b-241a-4585-8d80-daddf7667529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptData\Image">
+      <UniqueIdentifier>{12b7d0a2-efa5-402b-a832-9bba3d213677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptData\Shader">
+      <UniqueIdentifier>{ad10f16a-15cb-4f89-87cf-7ce53f6bb7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptData\Frame">
+      <UniqueIdentifier>{bf345694-7c9c-40f6-808c-9c468aa9b434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptData\DisplayList">
+      <UniqueIdentifier>{b36a6eb1-d415-471c-bf71-2921e22c91b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptData\ShaderGLSL">
+      <UniqueIdentifier>{34c8cc63-f53a-4cd4-a9d0-a24afefdd308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InterceptPlugin">
+      <UniqueIdentifier>{c5e1de9c-211a-4575-b4d9-547661fe828c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7272c301-5af8-4486-be2d-6a379a94c083}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="DLLLoader">
+      <UniqueIdentifier>{e38be241-d1ad-490f-8f87-4042441eb563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FunctionParser">
+      <UniqueIdentifier>{cec32464-d304-45d6-b82e-a2ec98d1e7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{3600fb3c-1b09-4b44-9fb8-51230a5fc03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes">
+      <UniqueIdentifier>{5c71551e-4187-4e4c-84ad-99709b10dafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes\Core">
+      <UniqueIdentifier>{18eca462-777f-4f67-93bc-ae1abe7f9868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes\WGL">
+      <UniqueIdentifier>{9dd7799a-a93c-42a3-9a89-2efe8b99d92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes\ARB">
+      <UniqueIdentifier>{dd4e9459-eaf4-4cc6-a6c6-894bde5491be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes\ATI">
+      <UniqueIdentifier>{f536a06f-0040-461a-9270-623cf0051263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes\NV">
+      <UniqueIdentifier>{e8005d58-9021-4248-b6ae-89e991eafb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes\Misc">
+      <UniqueIdentifier>{fab7be9a-f864-4006-814a-ce77265914a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\GLI_Includes\XGL">
+      <UniqueIdentifier>{54c7f399-6b41-4539-b4fe-14331f33e098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\XSL">
+      <UniqueIdentifier>{48e40327-0245-4f40-9a17-4a99d5f9cb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files\Docs">
+      <UniqueIdentifier>{2010fc6f-ba6b-4099-bfad-74f3aa3fc4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{75b60e5a-01d4-4a4b-a279-dea694adc323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\ConfigParser">
+      <UniqueIdentifier>{5cd1f748-67ce-460d-940b-744480166316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\SysUtils">
+      <UniqueIdentifier>{58f6230b-9445-4e72-b91d-07c8d013d91f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConfigData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLIntercept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLCore1_1.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="GLCore1_2.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindows.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="GLStubs.cpp">
+      <Filter>Source Files\Interface\Stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="GLStubsWGL.cpp">
+      <Filter>Source Files\Interface\Stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionData.cpp">
+      <Filter>Source Files\FunctionTable</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionTable.cpp">
+      <Filter>Source Files\FunctionTable</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterData.cpp">
+      <Filter>Source Files\FunctionTable\ParameterData</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumData.cpp">
+      <Filter>Source Files\FunctionTable\EnumData</Filter>
+    </ClCompile>
+    <ClCompile Include="BuiltInFunction.cpp">
+      <Filter>Source Files\BuiltInFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionFunction.cpp">
+      <Filter>Source Files\ExtensionFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionFunctionStubs.cpp">
+      <Filter>Source Files\ExtensionFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionFunctionWrapper.cpp">
+      <Filter>Source Files\ExtensionFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptLog.cpp">
+      <Filter>Source Files\InterceptLog</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptLogText.cpp">
+      <Filter>Source Files\InterceptLog</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptLogXML.cpp">
+      <Filter>Source Files\InterceptLog</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptData.cpp">
+      <Filter>Source Files\InterceptData</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Source Files\InterceptData\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSaveManager.cpp">
+      <Filter>Source Files\InterceptData\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptImage.cpp">
+      <Filter>Source Files\InterceptData\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptShader.cpp">
+      <Filter>Source Files\InterceptData\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\InterceptData\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSaveManager.cpp">
+      <Filter>Source Files\InterceptData\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptFrame.cpp">
+      <Filter>Source Files\InterceptData\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayListManager.cpp">
+      <Filter>Source Files\InterceptData\DisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayListSaveManager.cpp">
+      <Filter>Source Files\InterceptData\DisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptDisplayList.cpp">
+      <Filter>Source Files\InterceptData\DisplayList</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptShaderGLSL.cpp">
+      <Filter>Source Files\InterceptData\ShaderGLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderGLSLManager.cpp">
+      <Filter>Source Files\InterceptData\ShaderGLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderGLSLSaveManager.cpp">
+      <Filter>Source Files\InterceptData\ShaderGLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptPluginDLLInstance.cpp">
+      <Filter>Source Files\InterceptPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptPluginInstance.cpp">
+      <Filter>Source Files\InterceptPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="InterceptPluginManager.cpp">
+      <Filter>Source Files\InterceptPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLLoader.cpp">
+      <Filter>DLLLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionParser.cpp">
+      <Filter>FunctionParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ConfigParser.cpp">
+      <Filter>Common\ConfigParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ErrorLog.cpp">
+      <Filter>Common\SysUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\FileUtils.cpp">
+      <Filter>Common\SysUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\InputUtils.cpp">
+      <Filter>Common\SysUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MiscUtils.cpp">
+      <Filter>Common\SysUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="MovieMaker.cpp">
+      <Filter>Common\SysUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConfigData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLContext.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLDriver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLIntercept.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCore1_1.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCore1_2.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFunctions.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindows.h">
+      <Filter>Source Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GLStubs.h">
+      <Filter>Source Files\Interface\Stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="GLStubsWGL.h">
+      <Filter>Source Files\Interface\Stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionArgs.h">
+      <Filter>Source Files\FunctionTable</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionData.h">
+      <Filter>Source Files\FunctionTable</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionParamStore.h">
+      <Filter>Source Files\FunctionTable</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionRetValue.h">
+      <Filter>Source Files\FunctionTable</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionTable.h">
+      <Filter>Source Files\FunctionTable</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterData.h">
+      <Filter>Source Files\FunctionTable\ParameterData</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumData.h">
+      <Filter>Source Files\FunctionTable\EnumData</Filter>
+    </ClInclude>
+    <ClInclude Include="BuiltInFunction.h">
+      <Filter>Source Files\BuiltInFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionFunction.h">
+      <Filter>Source Files\ExtensionFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionFunctionWrapper.h">
+      <Filter>Source Files\ExtensionFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptLog.h">
+      <Filter>Source Files\InterceptLog</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptLogText.h">
+      <Filter>Source Files\InterceptLog</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptLogXML.h">
+      <Filter>Source Files\InterceptLog</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptData.h">
+      <Filter>Source Files\InterceptData</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptDataManager.h">
+      <Filter>Source Files\InterceptData</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Source Files\InterceptData\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSaveManager.h">
+      <Filter>Source Files\InterceptData\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptImage.h">
+      <Filter>Source Files\InterceptData\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptShader.h">
+      <Filter>Source Files\InterceptData\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Source Files\InterceptData\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSaveManager.h">
+      <Filter>Source Files\InterceptData\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptFrame.h">
+      <Filter>Source Files\InterceptData\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayListManager.h">
+      <Filter>Source Files\InterceptData\DisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayListSaveManager.h">
+      <Filter>Source Files\InterceptData\DisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptDisplayList.h">
+      <Filter>Source Files\InterceptData\DisplayList</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptShaderGLSL.h">
+      <Filter>Source Files\InterceptData\ShaderGLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderGLSLManager.h">
+      <Filter>Source Files\InterceptData\ShaderGLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderGLSLSaveManager.h">
+      <Filter>Source Files\InterceptData\ShaderGLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptPluginDLLInstance.h">
+      <Filter>Source Files\InterceptPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptPluginInstance.h">
+      <Filter>Source Files\InterceptPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptPluginInterface.h">
+      <Filter>Source Files\InterceptPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="InterceptPluginManager.h">
+      <Filter>Source Files\InterceptPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="GLDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLInterceptConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLLoader.h">
+      <Filter>DLLLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionParser.h">
+      <Filter>FunctionParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\gliIncludes.h">
+      <Filter>Data Files\GLI_Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore1_1_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore1_2_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore1_3_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore1_4_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore1_5_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore2_0_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore2_1_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore3_0_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore3_1_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore3_2_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore3_3_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore4_0_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore4_1_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore4_2_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore4_3_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore4_4_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLCore4_5_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\GLCore\GLES1_0_Include.h">
+      <Filter>Data Files\GLI_Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_3DFX_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_3DL_stereo_control_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_AMD_gpu_association_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_buffer_region_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_create_context_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_create_context_profile_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_extensions_string_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_framebuffer_srgb_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_make_current_read_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_pbuffer_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_pixel_format_float_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_pixel_format_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ARB_render_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_ATI_pixel_format_float_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_EXT_depth_float_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_EXT_display_color_table_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_EXT_pixel_format_packed_float_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_EXT_swap_control_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_I3D_digital_video_control_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_I3D_gamma_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_I3D_genlock_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_I3D_image_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_I3D_swap_frame_lock_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_I3D_swap_frame_usage_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_copy_image_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_delay_before_swap_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_dx_interop_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_float_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_gpu_affinity_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_multisample_coverage_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_present_video_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_render_depth_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_render_texture_rectangle_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_swap_group_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_video_capture_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_NV_video_output_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGL_OML_sync_control_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\WGL\WGLCore_Include.h">
+      <Filter>Data Files\GLI_Includes\WGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_bindless_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_cl_event_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_color_buffer_float_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_compute_variable_group_size_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_debug_output_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_draw_buffers_blend_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_draw_buffers_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_draw_instanced_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_es3_2_compatibility_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_geometry_shader4_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_gpu_shader_int64_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_indirect_parameters_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_instanced_arrays_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_matrix_palette_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_multitexture_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_occlusion_query_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_parallel_shader_compile_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_pipeline_statistics_query_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_point_parameters_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_robustness_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_sample_locations_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_sample_shading_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_shader_objects_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_shading_language_include_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_shadow_ambient_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_sparse_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_sparse_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_texture_buffer_object_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_texture_compression_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_texture_filter_minmax_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_texture_float_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_texture_storage_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_transform_feedback_overflow_query_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_transpose_matrix_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_vertex_blend_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_vertex_buffer_object_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_vertex_fragment_program_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_vertex_fragment_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ARB\ARB_window_pos_Include.h">
+      <Filter>Data Files\GLI_Includes\ARB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_draw_buffers_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_envmap_bumpmap_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_fragment_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_meminfo_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_pn_triangles_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_separate_stencil_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_text_fragment_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_texture_compression_3dc_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_texture_env_combine3_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_vertex_object_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\ATI\ATI_vertex_streams_Include.h">
+      <Filter>Data Files\GLI_Includes\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_bindless_multi_draw_indirect_count_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_bindless_multi_draw_indirect_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_bindless_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_blend_equation_advanced_coherent_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_blend_equation_advanced_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_clip_space_w_scaling_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_command_list_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_compute_program5_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_conditional_render_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_conservative_raster_dilate_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_conservative_raster_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_conservative_raster_pre_snap_triangles_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_copy_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_copy_depth_to_color_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_copy_image_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_coverage_sample_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_deep_texture3d_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_depth_buffer_float_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_depth_nonlinear_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_draw_buffers_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_draw_instanced_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_draw_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_evaluators_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_explicit_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_fence_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_fill_rectangle_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_float_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_fog_distance_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_fragment_coverage_to_color_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_fragment_program2_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_framebuffer_blit_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_framebuffer_mixed_samples_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_framebuffer_multisample_coverage_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_framebuffer_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_geometry_program4_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_gpu_program4_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_gpu_program5_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_gpu_shader5_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_half_float_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_instanced_arrays_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_internalformat_sample_query_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_light_max_exponent_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_multisample_coverage_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_multisample_filter_hint_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_non_square_matrices_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_occlusion_query_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_parameter_buffer_object_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_path_rendering_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_path_rendering_shared_edge_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_pixel_data_range_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_point_sprite_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_polygon_mode_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_present_video_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_primitive_restart_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_read_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_register_combiners_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_robustness_video_memory_purge_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_sample_locations_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_shader_buffer_load_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_shader_buffer_store_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_shader_thread_group_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_srgb_formats_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_tessellation_program5_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_texgen_emboss_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_texture_barrier_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_texture_env_combine4_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_texture_expand_normal_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_texture_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_texture_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_transform_feedback2_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_transform_feedback_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_uniform_buffer_unified_memory_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_vdpau_interop_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_vertex_array_range_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_vertex_attrib_integer_64bit_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_vertex_buffer_unified_memory_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_vertex_fragment_program_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_video_capture_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_viewport_array_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NV_viewport_swizzle_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NVX_conditional_render_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\NV\NVX_gpu_memory_info_Include.h">
+      <Filter>Data Files\GLI_Includes\NV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\3DFX_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\3DFX_tbuffer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\3DFX_texture_compression_fxt1_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_blend_minmax_factor_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_compressed_3dc_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_compressed_atc_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_debug_output_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_depth_clamp_separate_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_draw_buffers_blend_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_interleaved_elements_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_multi_draw_indirect_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_name_gen_delete_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_occlusion_query_event_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_performance_monitor_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_pinned_memory_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_program_binary_z400_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_sample_positions_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_sparse_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_stencil_operation_extended_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_transform_feedback4_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\AMD_vertex_shader_tessellator_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ANGLE_framebuffer_blit_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ANGLE_framebuffer_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ANGLE_instanced_arrays_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ANGLE_pack_reverse_row_order_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ANGLE_program_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ANGLE_texture_usage_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ANGLE_translated_shader_source_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_aux_depth_stencil_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_client_storage_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_copy_texture_levels_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_element_array_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_fence_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_float_pixels_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_flush_buffer_range_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_framebuffer_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_object_purgeable_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_rgb_422_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_row_bytes_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_specular_vector_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_sync_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_texture_range_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_transform_hint_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_vertex_array_object_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_vertex_array_range_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_vertex_program_evaluators_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\APPLE_ycbcr_422_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ARM_mali_program_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ARM_mali_shader_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\ARM_shader_framebuffer_fetch_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\DMP_program_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\DMP_shader_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_422_pixels_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_abgr_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_base_instance_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_bindable_uniform_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_blend_func_extended_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_blend_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_buffer_storage_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_clip_volume_hint_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_cmyka_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_color_subtable_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_compiled_vertex_array_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_convolution_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_coordinate_frame_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_copy_image_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_copy_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_cull_vertex_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_debug_label_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_debug_marker_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_depth_bounds_test_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_direct_state_access_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_discard_framebuffer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_disjoint_timer_query_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_draw_buffers2_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_draw_buffers_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_draw_buffers_indexed_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_draw_elements_base_vertex_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_draw_instanced_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_draw_range_elements_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_fog_coord_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_frame_buffer_object_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_framebuffer_blit_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_framebuffer_multisample_blit_scaled_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_framebuffer_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_framebuffer_sRGB_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_geometry_shader4_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_gpu_program_parameters_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_gpu_shader4_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_histogram_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_index_array_formats_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_index_func_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_index_material_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_instanced_arrays_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_legacy_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_light_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_map_buffer_range_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_multi_draw_arrays_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_multi_draw_indirect_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_multisampled_render_to_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_multiview_draw_buffers_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_packed_float_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_paletted_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_pixel_transform_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_point_parameters_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_polygon_offset_clamp_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_polygon_offset_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_primitive_bounding_box_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_protected_textures_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_provoking_vertex_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_pvrtc_srgb_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_raster_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_robustness_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_secondary_color_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_separate_shader_objects_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_shader_framebuffer_fetch_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_shader_image_load_store_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_shader_pixel_local_storage2_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_shader_pixel_local_storage_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_shared_texture_palette_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_sparse_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_stencil_clear_tag_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_stencil_two_side_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_subtexture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_tessellation_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture3D_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_border_clamp_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_compression_latc_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_compression_s3tc_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_filter_anisotropic_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_integer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_mirror_clamp_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_object_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_perturb_normal_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_snorm_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_srgb_decode_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_sRGB_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_srgb_r8_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_srgb_rg8_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_storage_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_texture_view_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_timer_query_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_transform_feedback_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_vertex_array_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_vertex_attrib_64bit_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_vertex_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_vertex_weighting_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_window_rectangles_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_x11_sync_object_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\EXT_yuv_target_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\FJ_shader_binary_gccso_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\GREMEDY_frame_terminator_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\GREMEDY_string_marker_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\HP_convolution_border_modes_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\HP_image_transform_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\HP_occlusion_test_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\HP_texture_lighting_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IBM_cull_vertex_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IBM_multimode_draw_arrays_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IBM_rasterpos_clip_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IBM_static_data_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IBM_vertex_array_lists_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_framebuffer_downsample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_multisampled_render_to_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_program_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_shader_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_texture_compression_pvrtc2_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_texture_compression_pvrtc_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_texture_env_enhanced_fixed_function_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_texture_filter_cubic_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\IMG_user_clip_plane_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INGR_blend_func_separate_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INGR_color_clamp_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INGR_interlace_read_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INTEL_conservative_rasterization_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INTEL_framebuffer_cmaa_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INTEL_map_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INTEL_parallel_arrays_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\INTEL_performance_query_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\KHR_blend_equation_advanced_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\KHR_no_error_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\KHR_texture_compression_astc_ldr_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\MESA_pack_invert_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\MESA_resize_buffers_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\MESA_window_pos_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\MESA_ycbcr_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\MESAX_texture_stack_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_blend_equation_separate_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_blend_func_separate_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_blend_subtract_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_byte_coordinates_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_compressed_etc1_rgb8_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_compressed_paletted_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_copy_image_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_draw_buffers_indexed_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_draw_elements_base_vertex_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_draw_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_egl_image_external_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_egl_image_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_fixed_point_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_framebuffer_object_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_geometry_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_get_program_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_mapbuffer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_matrix_get_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_matrix_palette_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_point_size_array_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_primitive_bounding_box_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_query_matrix_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_sample_shading_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_single_precision_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_tessellation_shader_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_3d_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_border_clamp_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_compression_astc_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_cube_map_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_half_float_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_storage_multisample_2d_array_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_texture_view_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_vertex_array_object_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OES_vertex_type_10_10_10_2_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OML_interlace_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OML_resample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OML_subsample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OVR_multiview_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\OVR_multiview_multisampled_render_to_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\PGI_misc_hints_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\PGI_vertex_hints_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_alpha_test_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_binning_control_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_driver_control_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_extended_get2_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_extended_get_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_perfmon_global_mode_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_tiled_rendering_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\QCOM_writeonly_rendering_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\REND_screen_coordinates_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\S3_s3tc_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGI_color_table_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGI_depth_pass_instrument_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGI_texture_color_table_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_detail_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_fog_function_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_multisample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_pixel_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_point_line_texgen_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_point_parameters_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_sharpen_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_texture4d_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_texture_color_mask_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_texture_filter4_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIS_texture_select_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_async_histogram_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_async_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_async_pixel_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_blend_alpha_minmax_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_calligraphic_fragment_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_clipmap_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_convolution_accuracy_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_flush_raster_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_fog_offset_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_fog_scale_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_fragment_lighting_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_framezoom_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_igloo_interface_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_impact_pixel_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_instruments_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_interlace_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_ir_instrument1_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_list_priority_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_pixel_texture_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_pixel_tiles_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_polynomial_ffd_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_reference_plane_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_resample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_scalebias_hint_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_shadow_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_sprite_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_subsample_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_tag_sample_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_texture_add_env_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_texture_coordinate_clamp_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_texture_lod_bias_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_texture_multi_buffer_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_texture_range_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_texture_scale_bias_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_vertex_preclip_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_ycrcb_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SGIX_ycrcba_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SUN_convolution_border_modes_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SUN_global_alpha_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SUN_mesh_array_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SUN_slice_accum_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SUN_triangle_list_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SUN_vertex_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\SUNX_constant_data_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\VIV_shader_binary_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\WIN_phong_shading_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\Misc\WIN_specular_fog_Include.h">
+      <Filter>Data Files\GLI_Includes\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\XGL\XGL_EXT_import_context_Include.h">
+      <Filter>Data Files\GLI_Includes\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\XGL\XGL_EXT_texture_from_pixmap_Include.h">
+      <Filter>Data Files\GLI_Includes\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\XGL\XGL_SGI_swap_control_Include.h">
+      <Filter>Data Files\GLI_Includes\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\XGL\XGL_SGI_video_sync_Include.h">
+      <Filter>Data Files\GLI_Includes\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Bin\GLFunctions\XGL\XGLCore_Include.h">
+      <Filter>Data Files\GLI_Includes\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonErrorLog.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\OSDefines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ConfigParser.h">
+      <Filter>Common\ConfigParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ErrorLog.h">
+      <Filter>Common\SysUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\FileUtils.h">
+      <Filter>Common\SysUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\InputUtils.h">
+      <Filter>Common\SysUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MiscUtils.h">
+      <Filter>Common\SysUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="MovieMaker.h">
+      <Filter>Common\SysUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glIntercept.def">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\Bin\MainLib\gliConfig.ini">
+      <Filter>Data Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Bin\XSL\gliIntercept_Basic.xsl">
+      <Filter>Data Files\XSL</Filter>
+    </Xml>
+    <Xml Include="..\..\Bin\XSL\gliIntercept_DHTML2.xsl">
+      <Filter>Data Files\XSL</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Docs\readme.txt">
+      <Filter>Data Files\Docs</Filter>
+    </Text>
+    <Text Include="..\..\Docs\readme_src.txt">
+      <Filter>Data Files\Docs</Filter>
+    </Text>
+    <Text Include="..\..\Docs\version_info.txt">
+      <Filter>Data Files\Docs</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ExtensionFunctionStubs_64.asm">
+      <Filter>Source Files\ExtensionFunction</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
